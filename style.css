@@ -1,0 +1,86 @@
+            /* for Form */
+            div[data-testid=stMarkdownContainer]{
+                
+                font: 15px Arial, sans-serif;
+                
+            }
+            div[data-testid=stForm]{
+                border-style: solid;
+                border-width: 1px;
+                border-color:blue;
+                
+            }
+            button[kind=secondaryFormSubmit][data-testid=baseButton-secondaryFormSubmit]{
+                background-color: #ffffff;
+                border-color:rgb(2, 221, 20)
+            }
+/* for toast */
+            div[data-testid=toastContainer] {
+                padding: 10px 10px 100px 50px;
+                align-items: center;
+                 
+            }
+           
+
+            div[data-testid=stToast] {
+                padding: 20px 10px 40px 10px;
+                background-color: #ffffff;   /* blue */
+                width: 40%;
+                border-style: solid;
+                border-width: 1px;
+                border-color:rgb(2, 221, 20);
+            }
+             
+            [data-testid=toastContainer] [data-testid=stMarkdownContainer] > p {
+                font-size: 20px; font-style: normal; font-weight: 100;
+                color: red;
+            }
+/* for button */
+            button[kind=secondary][data-testid=baseButton-secondary]{
+                background-color: #ffffff;
+                border-color:rgb(2, 221, 20)
+            }
+            /*
+            div.st-emotion-cache-l9bjmx.e1nzilvr5>p{
+                color: rgb(247, 11, 42);
+                text-indent: 40px;
+                text-transform: uppercase;
+            }*/
+/* for TAB*/
+            button[data-baseweb=tab]{
+                background-color: #fcfcfc;
+                color: rgb(2, 2, 112);
+                font-weight: bold;
+                text-transform: uppercase;
+                border-style: solid;
+                border-width: 1px;
+                border-color:rgb(2, 221, 20);
+                font-size: 56px;
+                display: inline-block;
+                margin: 2px 8px;
+                cursor: pointer;
+                padding: 10px;
+                border-radius: 12px;
+                text-align: center;
+                width: 100%;
+            }
+
+          
+/* for all Text Input*/    
+            div.stMultiSelect > label{font-size:110%; font-weight:bold; color:rgb(2, 2, 112);}  
+/* for all Text Input*/
+            div.stTextInput > label{font-size:110%; font-weight:bold; color:rgb(2, 2, 112);}  
+/* for all Select Box*/
+            div.stSelectbox > label{font-size:110%; font-weight:bold; color:rgb(2, 2, 112);} 
+/* for all Dateframe editors Box*/     
+/* for success*/
+            div[data-testid=stNotificationContentSuccess]{
+                text-align: center;
+                
+
+            }
+           
+
+            /*
+            dvn-scroller.glideDataEditor.dvn-underlay
+            

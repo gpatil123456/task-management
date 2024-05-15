@@ -1,0 +1,7 @@
+CREATE TABLE Users (
+    Id INTEGER PRIMARY KEY AUTOINCREMENT,
+    Username TEXT UNIQUE,
+    Password TEXT NOT NULL,
+    Role TEXT,
+    Name TEXT NOT NULL
+);
